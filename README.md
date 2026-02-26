@@ -97,6 +97,11 @@ Default persona configurations are in `personas/`. [Orin](https://orin.omni.dev)
 - [persona.json Spec](https://persona.omni.dev)
 - [life.json Spec](https://life.omni.dev)
 
+## Ecosystem
+
+- **[Omni CLI](https://github.com/omnidotdev/cli)**: Agentic CLI that powers Beacon's intelligence layer
+- **[Omni Terminal](https://github.com/omnidotdev/terminal)**: GPU-accelerated terminal emulator built to run everywhere
+
 ## License
 
 The code in this repository is licensed under MIT, &copy; [Omni LLC](https://omni.dev). See [LICENSE.md](LICENSE.md) for more information.
