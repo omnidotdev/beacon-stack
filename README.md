@@ -4,7 +4,7 @@
 
 Voice and messaging gateway for AI assistants
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE.md)
 
 </div>
 
@@ -104,4 +104,4 @@ Default persona configurations are in `personas/`. [Orin](https://orin.omni.dev)
 
 ## License
 
-The code in this repository is licensed under MIT, &copy; [Omni LLC](https://omni.dev). See [LICENSE.md](LICENSE.md) for more information.
+The code in this repository is licensed under Apache 2.0, &copy; [Omni LLC](https://omni.dev). See [LICENSE.md](LICENSE.md) for more information.
