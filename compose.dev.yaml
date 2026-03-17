@@ -3,8 +3,8 @@
 
 services:
   gateway:
-    build: ./services/beacon-gateway
-    image: beacon-gateway:dev
+    build: ./services/beacon
+    image: beacon:dev
 
   api:
     build: ./services/beacon-api

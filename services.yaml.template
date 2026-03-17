@@ -30,9 +30,9 @@ services:
   # ----------------------------
   # Beacon services
   # ----------------------------
-  # Core gateway daemon
-  - beacon-gateway:
-      repo: https://github.com/omnidotdev/beacon-gateway#master
+  # Core daemon
+  - beacon:
+      repo: https://github.com/omnidotdev/beacon#master
 
   # Backend API (Elysia + GraphQL)
   - beacon-api:

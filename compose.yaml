@@ -16,7 +16,7 @@ services:
       - "${DB_PORT:-5432}:5432"
 
   gateway:
-    image: ghcr.io/omnidotdev/beacon-gateway:latest
+    image: ghcr.io/omnidotdev/beacon:latest
     environment:
       BEACON_PERSONA: ${BEACON_PERSONA:-orin}
       BEACON_PORT: "18789"

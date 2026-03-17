@@ -37,7 +37,7 @@ Interfaces (Voice, Discord, Slack, WhatsApp, ...)
 
 | Service | Description |
 |---------|-------------|
-| [beacon-gateway](https://github.com/omnidotdev/beacon-gateway) | Core Rust gateway daemon |
+| [beacon](https://github.com/omnidotdev/beacon) | Core Rust daemon |
 | [beacon-api](https://github.com/omnidotdev/beacon-api) | GraphQL API (Elysia) |
 | [beacon-app](https://github.com/omnidotdev/beacon-app) | Cross-platform app (React + Tauri) |
 
@@ -64,8 +64,8 @@ Each service includes a Dockerfile for containerized deployment:
 
 ```sh
 # Build and run the gateway
-docker build -t beacon-gateway services/beacon-gateway
-docker run beacon-gateway
+docker build -t beacon services/beacon
+docker run beacon
 
 # Build and run the app
 docker build -t beacon-app services/beacon-app
